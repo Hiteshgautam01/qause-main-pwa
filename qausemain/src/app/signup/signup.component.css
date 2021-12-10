@@ -1,0 +1,106 @@
+.inform{
+    height: 46px;
+border-radius: 6px;
+}
+
+.pricolor-txt {
+       color: #F7A212;
+   }
+
+   .seccolor-txt {
+       color: #253DC0;
+       ;
+   }
+
+   .btn-warning {
+       height: 56px;
+       /* width: 315px; */
+       left: 30px;
+       top: 266px;
+       border-radius: 20px;
+       padding: 20px, 25px, 20px, 25px;
+       color: #ffffff;
+       background-color: #F7A212;
+       border-color: #F7A212;
+       font-weight: 700;
+   }
+
+   .btn-light {
+       height: 56px;
+       /* width: 315px; */
+       left: 30px;
+       top: 266px;
+       border-radius: 20px;
+       padding: 20px, 25px, 20px, 25px;
+       font-weight: 700;
+   }
+
+   .h-1oo {
+       height: 100vh;
+   }
+
+   @media only screen and (max-width: 480px) {
+       .h-5o {
+           height: 60vh;
+       }
+
+       .roundeffect {
+           padding-top: 40px;
+           margin-top: -200px;
+           border-radius: 25px 25px 0 0;
+           background: white;
+       }
+   }       
+    @media only screen and (max-width: 768px) {
+       .h-5o {
+           height: 60vh;
+           width: 100%;
+       }
+       .roundeffect {
+           padding-top: 40px;
+           margin-top: -200px;
+           border-radius: 25px 25px 0 0;
+           background: white;
+       }
+   }
+       .main_haeder {
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       min-height: 56px;
+       background-color: white;
+       /* padding: 0 20px; */
+   }
+
+   .main_haeder .em_side_right .btn {
+       width: 35px;
+       height: 35px;
+       display: inline-flex;
+       align-items: center;
+       justify-content: flex-end;
+       padding: 0;
+   }
+
+   .btn:not(:disabled):not(.disabled) {
+       cursor: pointer;
+   }
+
+   .btn__back {
+       width: 37px !important;
+       height: 37px !important;
+       border-radius: 50%;
+       padding: 0;
+       background-color: var(--bg-snow);
+       color: black;
+       display: inline-flex;
+       align-items: center;
+       justify-content: center !important;
+   }
+
+      /* .bg-snow {
+       background-color: rgb(209, 227, 240);
+   } */
+
+   .rounded-circle {
+       border-radius: 50% !important;
+   }
